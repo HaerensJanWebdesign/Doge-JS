@@ -34,3 +34,9 @@ html body {
     align-items: center;
     height: 30vh;
 }
+#dogepic {
+    visibility: hidden;
+}
+#dogepic.clicked {
+    visibility: visible;
+}
