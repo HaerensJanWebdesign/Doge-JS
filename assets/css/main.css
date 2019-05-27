@@ -1,14 +1,24 @@
 html body {
     width: 100%;
+    background: #f4f4f4;
 }
 
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 .btn {
     padding: 8px;
     font-family: 'Gugi', cursive;
+    font-size: 30px;
     text-transform: uppercase;
     display: inline-block;
     border: 3px solid #494949;
     border-radius: 6px;
+
+    align-self: center;
 }
 .btn:active {
     transform: translateY(1px);
