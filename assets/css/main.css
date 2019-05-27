@@ -22,6 +22,6 @@ html body {
     align-self: center;
 }
 #doge:active {
-    transform: translateY(1px);
+    transform: translateY(3px);
     filter: saturate(150%);
 }
