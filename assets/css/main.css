@@ -1,6 +1,7 @@
 html body {
     width: 100%;
     background: #f4f4f4;
+    overflow: hidden;
 }
 
 /* Basic Css on Button*/
@@ -8,7 +9,7 @@ html body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 60vh;
 }
 #doge {
     padding: 8px;
@@ -27,3 +28,9 @@ html body {
 }
 
 /* Css on IMG*/
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
