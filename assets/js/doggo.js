@@ -1,1 +1,1 @@
-document.getElementById("doge").innerHTML = "Bark !"
+var button = document.querySelectorAll('#doge');
