@@ -1,0 +1,16 @@
+html body {
+    width: 100%;
+}
+
+.btn {
+    padding: 8px;
+    font-family: 'Gugi', cursive;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 3px solid #494949;
+    border-radius: 6px;
+}
+.btn:active {
+    transform: translateY(1px);
+    filter: saturate(150%);
+}
