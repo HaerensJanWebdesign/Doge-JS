@@ -1,1 +1,3 @@
-var button = document.querySelectorAll('#doge');
+window.onload = function() {
+    document.getElementById("doge").innerHTML = "WOOF!";
+}
