@@ -9,9 +9,9 @@ html body {
     align-items: center;
     height: 100vh;
 }
-.btn {
+#doge {
     padding: 8px;
-    font-family: 'Gugi', cursive;
+    font-family:'Ramabhadra', sans-serif;
     font-size: 30px;
     text-transform: uppercase;
     display: inline-block;
@@ -20,7 +20,7 @@ html body {
 
     align-self: center;
 }
-.btn:active {
+#doge:active {
     transform: translateY(1px);
     filter: saturate(150%);
 }
